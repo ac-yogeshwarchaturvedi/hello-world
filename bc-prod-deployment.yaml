@@ -39,7 +39,7 @@ spec:
             - name: AWS_BUCKET
               value: "https://neuralegion-open-bucket.s3.amazonaws.com"
             - name: GOOGLE_MAPS_API
-              value: "AIzaSyD2wIxpYCuNI0Zjt8kChs2hLTS5abVQfRQ"
+              #value: "AIzaSyD2wIxpYCuNI0Zjt8kChs2hLTS5abVQfRQ"
             - name: JWT_PRIVATE_KEY_LOCATION
               value: "config/keys/jwtRS256.key"
             - name: JWT_PUBLIC_KEY_LOCATION
