@@ -154,7 +154,7 @@ class LogReader
     {
         return 'log-viewer:log-index:'.implode(':', [
             $this->file->name,
-            md5($this->query ?? ''),
+            #md5($this->query ?? ''),
         ]);
     }
 
